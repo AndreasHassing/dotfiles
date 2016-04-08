@@ -1,0 +1,92 @@
+"*":
+  "activate-power-mode":
+    particles:
+      size: {}
+      spawnCount: {}
+      totalCount: {}
+    screenShake: {}
+  "autocomplete-plus": {}
+  "autocomplete-python":
+    extraPaths: "/usr/local/lib/python3.4/site-packages"
+    pythonPath: "/usr/local/bin/python3"
+    useSnippets: "required"
+  build: {}
+  core:
+    disabledPackages: [
+      "autosave"
+      "open-last-project"
+      "travis-ci-status"
+      "tester-go"
+      "language-babel"
+    ]
+    excludeVcsIgnoredPaths: false
+    ignoredNames: [
+      ".git"
+      ".svn"
+      ".DS_Store"
+      ".class"
+    ]
+    openEmptyEditorOnStart: false
+    projectHome: "/Users/abn/go"
+    themes: [
+      "atom-material-ui"
+      "atom-material-syntax"
+    ]
+  "dark-flat-ui":
+    tabSyntaxThemeBackground: false
+  deprecated:
+    tool:
+      make: true
+  editor:
+    fontSize: 12
+    invisibles: {}
+    showIndentGuide: true
+    showInvisibles: true
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+  "exception-reporting":
+    userId: "fb89fb35-5660-adf9-5ce6-8298aebf0f7e"
+  "git-diff":
+    showIconsInEditorGutter: true
+  "go-plus":
+    goPath: "/Users/abn/go"
+    showPanelWhenNoIssuesExist: true
+  "ionide-fsharp":
+    FormatDocument:
+      ReorderOpenDeclaration: true
+    MonoPath: "/usr/local/bin/"
+    ShowQuickInfoPanel: false
+    ShowUseHighlights: false
+    UseLinter: false
+  "ionide-fsi":
+    FsiPath: "fsharpi"
+  "ionide-paket":
+    MonoPath: "/usr/local/bin/"
+  latex: {}
+  latexer: {}
+  linter:
+    errorPanelHeight: 43
+    ignoreMatchedFiles: "**/*.{fs,fsi}"
+  "linter-javac": {}
+  "markdown-preview-plus": {}
+  metrics:
+    userId: "6be15f075e4f551dfc9c7dfe5b648f6dd3c6343c"
+  "python-yapf":
+    formatOnSave: true
+    yapfPath: "/usr/local/bin/yapf"
+  react: {}
+  "release-notes":
+    viewedVersion: "0.95.0"
+  "spell-check":
+    grammars: [
+      "text.bibtex"
+      "text.tex.latex"
+    ]
+  "todo-show":
+    sortBy: "File"
+  "tree-view":
+    hideIgnoredNames: true
+    squashDirectoryNames: true
+  "vim-mode": {}
+  welcome:
+    showOnStartup: false
