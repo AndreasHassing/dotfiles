@@ -1,0 +1,10 @@
+[user]
+	name = AndreasHassing
+	email = andreas@famhassing.dk
+[alias]
+	co = checkout
+	lol = log --graph --decorate --pretty=oneline --abbrev-commit --all
+[credential]
+	helper = osxkeychain
+[push]
+	default = simple
