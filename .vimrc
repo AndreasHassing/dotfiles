@@ -58,6 +58,7 @@ endif
 if &t_Co > 2 || has("gui_running")
   syntax on
   set hlsearch
+  highlight Search ctermbg=black ctermfg=yellow term=underline
 endif
 set listchars=nbsp:¬,eol:¶,tab:>-,extends:»,precedes:«,trail:•
 set term=screen-256color
